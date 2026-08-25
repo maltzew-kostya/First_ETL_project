@@ -38,7 +38,7 @@ SELECT
 	AVG(amount) AS avg_order
 FROM orders 
 GROUP BY order_month
-ORDER BY order_month
+ORDER BY order_month;
 
 --5. Пользователи, которые совершили больше одного заказа
 
